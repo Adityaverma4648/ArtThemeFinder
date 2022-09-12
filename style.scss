@@ -5,3 +5,35 @@
     // font 
     font-family: 'Poppins', sans-serif;
 }
+.text-orange{
+    color :#ff9176;
+}
+.myHeader{
+    height: 45vh;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction :column;
+    align-items: center;
+    justify-content: center;
+  h1{
+    width: auto;
+    font-weight: 900;
+    color: #ff4b1f;  
+  }
+  p{
+    color: #ff9176;
+  }
+  // buttton elem - explore------------------
+  button{
+    background-color: #ff9176;
+  }
+
+
+//   ----------------------------------------
+}
+.themeCont{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+}
