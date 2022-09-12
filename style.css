@@ -27,10 +27,37 @@
 }
 .myHeader button {
   background-color: #ff9176;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.myHeader button:hover {
+  background-color: #ff4b1f;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 10px 8px 50px #f0ac9b;
 }
 
 .themeCont {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.themeCont .date {
+  width: 80%;
+  text-align: right;
+}
+.themeCont .SearchTheme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.themeCont .SearchTheme h4 {
+  color: #da9cec;
+}
+.themeCont .SearchTheme div #btn-search {
+  background-color: #ac27d4;
+  border: none;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

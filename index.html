@@ -41,6 +41,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contacts</a>
                 </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-info roundness-0"> Login</button>
+                </li>
             </ul>
             <form class="d-flex my-2 my-lg-0 ms-4 px-4">
                 <input class="form-control me-sm-2" type="text" placeholder="Search">
@@ -64,17 +67,65 @@
 
       <!-- search theme container starts here -->
          <div class="container-fluid themeCont">
-              <div id="date" class="text-white p-1">
+              <div id="date" class="text-secondary p-1 small">
+
               </div>   
-              <div class="SearchTheme">
-                  <h5 class="text-white">
-                      search Todays theme for you!
-                  </h5>
+              <div class="container-fluid SearchTheme">
+                  <h4 class="py-3">
+                      Search Todays theme for you!
+                  </h4>
+                  <div class="py-4">
+                     <button type="button" class="py-2 px-5" id="btn-search" data-bs-toggle="modal" data-bs-target=".bd-example-modal-xl">
+                        Click to search!
+                     </button>
+                     <!-- The Modal -->
+                                   <div class="modal fade bd-example-modal-xl" id="myModal" role="dialog" tabindex="-1">
+                                       <div class="modal-dialog modal-dialog-centered modal-lg" >
+                                         <div class="modal-content">
+                                     
+                                           <!-- Modal Header -->
+                                           <div class="modal-header">
+                                             <h4 class="modal-title">Finding</h4>
+                                             <span class="spinner-border text-dark"></span>
+                                             
+                                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                           </div>
+  
+                              <!-- Modal body -->
+                              <div class="modal-body">
+                                  <!-- category -->
+                                  <table class="table table-bordered">
+                                     <thead class="text-dark">
+                                        <th>
+                                            Methods
+                                        </th>
+                                        <th>
+                                            Types
+                                        </th>
+                                        <th>
+                                            Foregorund
+                                        </th>
+                                        <th>
+                                            Background
+                                        </th>
+                                        <th>
+                                             Character
+                                        </th>
+                                        <th>
+                                            Theme
+                                       </th>
+                                     </thead>
+                                  </table>
+                              </div>
+  
+                        
+                            </div>
+                          </div>
+                        </div>
+                  </div>
               </div>
          </div>
       <!-- ----------------------------------------------------------------------------- -->
-
-
 
       <script src="index.js"></script>
 </body>
