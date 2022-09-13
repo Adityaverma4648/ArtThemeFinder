@@ -59,9 +59,142 @@
                 Art Theme Finder
             </h1>
             <p>Helps you find the insipration by words play</p>
-            <button type="button" id="explore-btn" class="text-white px-5 py-2">
+            <button type="button" id="explore-btn" class="text-white px-5 py-2" data-bs-toggle="modal" data-bs-target=".bd-example-modal-xl">
                  Explore 
             </button>
+            <!-- The Modal -->
+            <div class="modal fade bd-example-modal-xl" id="myModal" role="dialog" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered modal-xl" >
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Finding</h4>
+                      <span class="spinner-border text-dark"></span>
+                      
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+                    </div>
+
+             <!-- Modal body -->
+            <div class="modal-body">
+           <!-- category -->
+           <table class="table table-bordered">
+              <thead class="text-dark">
+                 <th>
+                     Methods
+                 </th>
+                 <th>
+                     Types
+                 </th>
+                 <th>
+                     Foregorund
+                 </th>
+                 <th>
+                     Background
+                 </th>
+                 <th>
+                      Character
+                 </th>
+                 <th>
+                     Theme
+                </th>
+                <th>
+                    Stylization
+                </th>
+                <th>
+                 Lighting
+                </th>
+                <th>
+                 Posing
+                </th>
+                <th>
+                  perspective
+                </th>
+
+              </thead>
+              <tbody>
+                 <tr>
+                     <td class="methods">traditional</td>
+                     <td class="types">Expression</td>
+                     <td class="foreground">Children</td>
+                     <td class="background">supporting character</td>
+                 </tr>
+                 <tr>
+                    <td class="methods">digital</td>
+                    <td class="types">Character designs</td>
+                    <td class="foreground">Antiques</td>
+                    <td class="background">Main character</td>
+                 </tr>
+                 <tr>
+                     <td class="methods">Pastels</td>
+                     <td class="types">Abstract</td>
+                     <td class="foreground">treasures</td>
+                     <td class="background">Antiques</td>
+                  </tr>
+                  <tr>
+                     <td class="methods">Paint Colors</td>
+                     <td class="types">Concept art</td>
+                     <td class="foreground">sci-fi</td>
+                     <td class="background">Castle</td>
+                  </tr>
+                  <tr>
+                     <td class="methods">Any</td>
+                     <td class="types">Potrait Study</td>
+                     <td class="foreground">Main character</td>
+                     <td class="background">Room</td>
+                 </tr>
+                 <tr>
+                    <td class="methods">Pencils only</td>
+                    <td class="types">Anatmony explorer</td>
+                    <td class="foreground">Supporting characters</td>
+                    <td class="background">Sci-fi</td>
+                 </tr>
+                 <tr>
+                     <td class="methods">Acrylic paints</td>
+                     <td class="types">Still life</td>
+                     <td class="foreground">Creatures</td>
+                     <td class="background">Main character</td>
+                  </tr>
+                  <tr>
+                     <td class="methods">Copics</td>
+                     <td class="types">Character concept art</td>
+                     <td class="foreground">Animals</td>
+                     <td class="background">Main character</td>
+                  </tr>
+                  <tr>
+                     <td class="methods">Pens only</td>
+                     <td>Semi realistic</td>
+                     <td class="foreground">mystic organism</td>
+                     <td class="background">Main character</td>
+                 </tr>
+                 <tr>
+                    <td class="methods">Digital(No Undo)</td>
+                    <td class="types">figure drawing</td>
+                    <td class="foreground">Enviroment</td>
+                    <td class="background">Main character</td>
+                 </tr>
+                 <tr>
+                     <td class="methods"></td>
+                     <td class="types"></td>
+                     <td class="foreground">still Life</td>
+                     <td class="background">Main character</td>
+                 </tr>
+                 <tr>
+                     <td class="methods"></td>
+                     <td class="types"></td>
+                     <td class="foreground">Any</td>
+                     <td class="background">Main character</td>
+                 </tr>
+
+              </tbody>
+           </table>
+       </div>
+
+ 
+     </div>
+   </div>
+ </div>
+ <!-- modal ends -->
       </div>
       <!-- ends here -->
 
@@ -75,53 +208,10 @@
                       Search Todays theme for you!
                   </h4>
                   <div class="py-4">
-                     <button type="button" class="py-2 px-5" id="btn-search" data-bs-toggle="modal" data-bs-target=".bd-example-modal-xl">
+                     <button type="button" class="py-2 px-5" id="btn-search" >
                         Click to search!
                      </button>
-                     <!-- The Modal -->
-                                   <div class="modal fade bd-example-modal-xl" id="myModal" role="dialog" tabindex="-1">
-                                       <div class="modal-dialog modal-dialog-centered modal-lg" >
-                                         <div class="modal-content">
-                                     
-                                           <!-- Modal Header -->
-                                           <div class="modal-header">
-                                             <h4 class="modal-title">Finding</h4>
-                                             <span class="spinner-border text-dark"></span>
-                                             
-                                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                           </div>
-  
-                              <!-- Modal body -->
-                              <div class="modal-body">
-                                  <!-- category -->
-                                  <table class="table table-bordered">
-                                     <thead class="text-dark">
-                                        <th>
-                                            Methods
-                                        </th>
-                                        <th>
-                                            Types
-                                        </th>
-                                        <th>
-                                            Foregorund
-                                        </th>
-                                        <th>
-                                            Background
-                                        </th>
-                                        <th>
-                                             Character
-                                        </th>
-                                        <th>
-                                            Theme
-                                       </th>
-                                     </thead>
-                                  </table>
-                              </div>
-  
-                        
-                            </div>
-                          </div>
-                        </div>
+                     
                   </div>
               </div>
          </div>
